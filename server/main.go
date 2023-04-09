@@ -36,7 +36,7 @@ func handleRequest(w http.ResponseWriter, r *http.Request) {
 
 	// 處理請求並生成回應
 	data := map[string]string{
-		"message": "Hello, world!",
+		"message": "Hello, world! from net/http",
 		"request": string(b),
 	}
 	response, err := json.Marshal(data)

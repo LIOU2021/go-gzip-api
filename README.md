@@ -1,0 +1,4 @@
+- 情境假設為遇到一些http body偏大的API需求時，想把body用gzip
+- server的部分我實作兩個範例
+    - ./server 是golang 原生http 套件做的
+    - ./gin 是用gin 框架做的
